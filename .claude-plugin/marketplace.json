@@ -1,0 +1,13 @@
+{
+  "name": "miniscule-plugins",
+  "owner": {
+    "name": "C G Mitun Akil"
+  },
+  "plugins": [
+    {
+      "name": "pseudo-first",
+      "source": "./pseudo-first",
+      "description": "Plan in pseudocode, get approval, then fan out parallel Haiku coders. Caches research so deep dives happen once."
+    }
+  ]
+}

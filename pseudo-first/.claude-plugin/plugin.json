@@ -1,0 +1,10 @@
+{
+  "name": "pseudo-first",
+  "displayName": "Pseudo First",
+  "version": "0.1.0",
+  "description": "Forces every coding task through plan mode, tiny commentless pseudocode, explicit approval, then parallel Haiku subagents. Research is cached to disk and reused.",
+  "author": {
+    "name": "C G Mitun Akil"
+  },
+  "keywords": ["planning", "pseudocode", "subagents", "haiku", "tokens"]
+}

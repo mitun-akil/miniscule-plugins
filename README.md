@@ -5,10 +5,30 @@ spend less. Add more plugins as subdirectories; one repo, one marketplace.
 
 ## Install
 
+Add the marketplace, then install the plugin from it. Pick whichever source
+applies:
+
 ```
+# From GitHub
+/plugin marketplace add mitun-akil/miniscule-plugins
+
+# From a git URL (use this if the shorthand above cannot authenticate)
+/plugin marketplace add https://github.com/mitun-akil/miniscule-plugins.git
+
+# From a local clone or checkout
 /plugin marketplace add ~/Documents/Projects/miniscule-plugins
+```
+
+Then, in all cases:
+
+```
 /plugin install pseudo-first@miniscule-plugins
 ```
+
+> **This repository is private.** The GitHub sources above only work if your
+> GitHub account has access to it and your local git credentials are configured.
+> If you do not have access, ask the owner for a collaborator invite, or clone
+> it yourself and use the local-path form.
 
 Editing a plugin? Re-run `/plugin install` (or restart Claude Code) to pick the
 changes up.
